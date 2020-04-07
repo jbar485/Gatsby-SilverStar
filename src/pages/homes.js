@@ -1,13 +1,13 @@
 import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Contact from "../components/Contact/Contact"
+import Home from "../components/Home/Home"
 
-const ContactPage = () => (
+const HomePage = () => (
   <Layout>
     <SEO title="Home" />
-    <Contact />
+    <Home />
   </Layout>
 )
 
-export default ContactPage
+export default HomePage

@@ -1,0 +1,111 @@
+.about-header {
+    margin-top: 1.5em;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 2em;
+    text-align: center;
+  }
+  .description {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 2em;
+    margin-bottom: 3em;
+  }
+  
+  .about-page p {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .about-image {
+    margin-bottom: 1em;
+  }
+  
+  .back-house {
+    width: 100%;
+    margin-bottom: 1em;
+  }
+  
+  @media only screen and (min-width: 768px) {
+    .description {
+      width: 60%;
+      margin-left: 5%;
+      margin-top: 2em;
+      margin-bottom: 2em;
+    }
+    .about-header {
+      margin-top: 8em;
+      font-family: 'Yanone Kaffeesatz', sans-serif;
+      font-size: 2em;
+      margin-left: 5%;
+      margin-right: 83%;
+    }
+  
+    .back-house {
+      width: 60%;
+      margin-bottom: 1em;
+      margin-left: 5%;
+    }
+  
+    .signature {
+      margin-left: 5%;
+      margin-bottom: 1em;
+      font-family: 'Yanone Kaffeesatz', sans-serif;
+    }
+  }
+  
+  @media only screen and (min-width: 1024px) {
+    .description {
+      width: 60%;
+      margin-left: 5%;
+      margin-top: 2em;
+      margin-bottom: 1em;
+      font-family: 'Roboto', sans-serif;
+    }
+  
+    .about-header {
+      margin-top: 10rem;
+      font-family: 'Yanone Kaffeesatz', sans-serif;
+      font-size: 3em;
+      margin-left: 4%;
+      margin-right: 80%;
+    }
+  
+    .back-house {
+      width: 60%;
+      margin-left: 5%;
+    }
+  
+    .signature {
+      margin-left: 5%;
+      margin-bottom: 1em;
+      font-family: 'Yanone Kaffeesatz', sans-serif;
+    }
+  }
+  
+  @media only screen and (min-width: 1440px) {
+    .description {
+      width: 60%;
+      margin-left: 5%;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      font-family: 'Roboto', sans-serif;
+    }
+  
+    .about-header {
+      margin-top: 10rem;
+      font-family: 'Yanone Kaffeesatz', sans-serif;
+      font-size: 4rem;
+      margin-left: 3%;
+    
+    }
+  
+    .back-house {
+      width: 40%;
+      margin-left: 5%;
+    }
+  
+    .signature {
+      margin-left: 5%;
+      margin-bottom: 1em;
+      font-family: 'Yanone Kaffeesatz', sans-serif;
+    }
+  }

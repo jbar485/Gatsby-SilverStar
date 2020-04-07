@@ -1,0 +1,174 @@
+.contact-header {
+    margin-top: 1.5em;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 2em;
+    text-align: center;
+  }
+  
+  .formStyles {
+    text-align: center;
+    display: inline;
+  }
+  
+  .inputStyles, .inputStylesArea, .inputStylesTop {
+    width: 90%;
+    margin-bottom: 2%;
+    padding: 1%;
+    border-radius: 0.3em;
+  }
+  
+  .inputStylesArea {
+    padding-bottom: 10em;
+  }
+  
+  .inputStylesTop {
+    margin-top: 2em;
+  }
+  
+  .btn {
+    cursor: pointer;
+    width: 90%;
+    padding: 1%;
+    margin-bottom: 5em;
+    background: #656565;
+    border-radius: 0.4em;
+  }
+  
+  .btn:hover {
+    background: #070707;
+    transition: 0.3s ease-in;
+  }
+  
+  .plane {
+    width: 10%;
+  }
+  
+  .description {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 2em;
+    margin-bottom: 3em;
+  }
+  
+  .information {
+    margin-left: 5%;
+    margin-top: 2em;
+    margin-bottom: 3em;
+  }
+  
+  .info {
+    margin: 1em 0em;
+  }
+  
+  .contact-page {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  @media only screen and (min-width: 768px) {
+    .description {
+      width: 60%;
+      margin-left: 5%;
+      margin-top: 2em;
+      margin-bottom: 5em;
+    }
+  
+    .contact-header {
+      margin-top: 5em;
+      font-family: 'Yanone Kaffeesatz', sans-serif;
+      font-size: 2em;
+      margin-left: 5%;
+      margin-right: 90%;
+    }
+  
+    .information {
+      margin-left: 5%;
+      margin-top: 2em;
+      margin-bottom: 5em;
+    }
+  
+    .inputStyles, .inputStylesArea, .inputStylesTop {
+      width: 90%;
+      margin-bottom: 2%;
+      padding: 1%;
+      border-radius: 0.3em;
+    }
+  
+    .btn {
+      cursor: pointer;
+      width: 50%;
+      padding: 1%;
+      margin-bottom: 5em;
+      background: #656565;
+      border-radius: 0.4em;
+    }
+  }
+  
+  @media only screen and (min-width: 1024px) {
+  
+    .contact-header {
+      margin-top: 10rem;
+      font-family: 'Yanone Kaffeesatz', sans-serif;
+      font-size: 3em;
+      margin-left: 5%;
+      margin-right: 90%;
+    }
+  
+    .inputStyles, .inputStylesArea, .inputStylesTop {
+      width: 80%;
+      margin-bottom: 2%;
+      padding: 1%;
+      border-radius: 0.3em;
+    }
+  
+    .btn {
+      cursor: pointer;
+      width: 40%;
+      padding: 1%;
+      margin-bottom: 5em;
+      background: #656565;
+      border-radius: 0.4em;
+    }
+  
+    .inputStylesArea {
+      height: 10rem;
+    }
+  }
+  
+  @media only screen and (min-width: 1440px) {
+  
+    .contact-header {
+      margin-top: 10rem;
+      font-family: 'Yanone Kaffeesatz', sans-serif;
+      font-size: 4em;
+      margin-left: 5%;
+      margin-right: 90%;
+    }
+  
+    .inputStyles, .inputStylesArea, .inputStylesTop {
+      width: 60%;
+      margin-bottom: 2%;
+      padding: 1%;
+      border-radius: 0.3em;
+      margin-left: 5%;
+    }
+  
+    .formStyles {
+      text-align: left;
+      margin-left: 5%;
+      display: inline;
+    }
+  
+    .btn {
+      cursor: pointer;
+      width: 30%;
+      padding: 1%;
+      margin-bottom: 5em;
+      background: #656565;
+      border-radius: 0.4em;
+      margin-left: 5%;
+    }
+  
+    .inputStylesArea {
+      height: 10rem;
+    }
+  }
