@@ -1,0 +1,571 @@
+.intro-div {
+  margin-top: 20px;
+  background-color: rgba(255, 255, 255, 0.501);
+  color: black;
+  height: 70vh;
+  position: relative;
+  text-align: center;
+}
+
+.intro-div:before {
+  content: "";
+  background: url("../../images/front.jpg") no-repeat bottom;
+  background-size: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.home-image {
+  display: none;
+}
+
+.small-logo {
+  width: 50px;
+}
+
+.intro-inner {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  width: 80%;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5rem;
+}
+
+.quote {
+  margin-top: 2rem;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  z-index: 2;
+}
+
+.quote .box {
+  position: relative;
+  background: #fff;
+  overflow: hidden;
+  transition: 0.5s;
+  z-index: 2;
+  box-sizing: border-box;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  box-shadow: -10px 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.quote .box:hover {
+  box-shadow: -20px 50px 100px rgba(0, 0, 0, 0.2);
+}
+
+.quote .box p {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 5rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.quote .box h4 {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+}
+
+.quote .box:after {
+  content: url("../../images/quote.png");
+  position: absolute;
+  bottom: -50px;
+  right: 10px;
+  opacity: 0.1;
+  color: black;
+  width: 50%;
+  height: auto;
+}
+
+.employee {
+  background-color: #fff;
+}
+
+.landing-header {
+  margin-top: 1em;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-size: 2em;
+  text-align: center;
+  padding-top: 2em;
+}
+
+.description {
+  width: 60%;
+  margin-left: 5%;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.quality {
+  background-color: #e6e8e6;
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+.quality-image {
+  width: 100%;
+}
+
+.quality-description {
+  width: 100%;
+  padding-top: 10%;
+}
+
+.quality-header {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-size: 2em;
+}
+
+.quality-button {
+  cursor: pointer;
+  width: 40%;
+  padding: 1%;
+  margin: 20px;
+  margin-bottom: 5em;
+  background: #E6E8E6;
+  border: black 2px solid;
+}
+
+.quality-button:hover {
+  background: #fff;
+  color: black;
+  transition: 0.5s ease-in-out;
+  
+}
+
+.contact-button {
+  display: none;
+}
+
+.contact-button:hover, .about-button:hover {
+  background: #fff;
+  transition: 0.5s ease-in-out;
+  color: #070707;
+}
+
+.about-button {
+  display: none;
+}
+
+
+
+@media only screen and (min-width: 768px) {
+  .quote .box:after {
+    content: url("../../images/quote.png");
+    position: absolute;
+    bottom: -50px;
+    right: -150px;
+    opacity: 0.1;
+    color: black;
+    width: 50%;
+    height: auto;
+  }
+
+  .intro-div {
+    padding-top: 20px;
+    background-color: #070707;
+    color: #fff;
+    height: 79vh;
+    position: relative;
+    text-align: center;
+    margin-top: 5px;
+    overflow: hidden;
+  }
+
+  .intro-div:before {
+    background: none;
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+
+  .home-image {
+    display: inline;
+    margin-left: 50%;
+    size: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50%;
+    height: auto;
+  }
+
+  .intro-inner {
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: auto;
+    padding-top: 5rem;
+  }
+
+  .employee {
+    background-color: #fff;
+  }
+
+  .landing-header {
+    margin-top: 0em;
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    font-size: 2em;
+    margin-left: 5%;
+    padding-top: 2em;
+    margin-right: 59%;
+  }
+
+  .description {
+    width: 60%;
+    margin-left: 5%;
+    margin-top: 2em;
+    margin-bottom: 2em;
+  }
+
+  .quality {
+    background-color: #e6e8e6;
+    text-align: center;
+    margin-bottom: 2em;
+  }
+
+  .quality-image {
+    width: 50%;
+  }
+
+  .quality-description {
+    width: 40%;
+    float: left;
+    padding-top: 15%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .quality-header {
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    font-size: 2em;
+  }
+
+  .quality-button {
+    cursor: pointer;
+    width: 40%;
+    padding: 1%;
+    margin: 20px;
+    margin-bottom: 5em;
+    background: #E6E8E6;
+    border: black 2px solid;
+  }
+
+  .quality-button:hover {
+    background: #fff;
+    color: black;
+    transition: 0.5s ease-in-out;
+    
+  }
+
+  .contact-button {
+    cursor: pointer;
+    width: 30%;
+    padding: 1%;
+    margin: 2%;
+
+    background: #070707;
+    color: #fff;
+    border: #fff 2px solid;
+    float: left;
+    margin-left: 15%;
+    margin-top: 5%;
+    display: inline-block;
+  }
+
+  .contact-button:hover,
+  .about-button:hover {
+    background: #fff;
+    transition: 0.5s ease-in-out;
+    color: #070707;
+  }
+
+  .about-button {
+    display: inline;
+    cursor: pointer;
+    width: 30%;
+    padding: 1%;
+    margin: 20px;
+    color: #fff;
+    background: #070707;
+    border: #fff 2px solid;
+    float: left;
+    margin-top: 5%;
+  }
+
+  .small-logo {
+    width: 80px;
+    margin-left: 21%;
+    margin-right: 90%;
+    margin-top: 1%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .intro-div {
+    padding-top: 60px;
+    background-color: #070707;
+    color: #fff;
+    height: 84vh;
+    position: relative;
+    text-align: center;
+    margin-top: 5px;
+    overflow: hidden;
+  }
+
+  .home-image {
+    display: inline;
+    margin-left: 50%;
+    size: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50%;
+    height: auto;
+  }
+
+  .landing-header {
+    margin-top: 0em;
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    font-size: 2em;
+    margin-left: 5%;
+    padding-top: 2em;
+    margin-right: 68%;
+  }
+
+  .quote .box {
+    position: relative;
+    background: #fff;
+    overflow: hidden;
+    transition: 0.5s;
+    z-index: 2;
+    box-sizing: border-box;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    box-shadow: -10px 10px 30px rgba(0, 0, 0, 0.2);
+    width: 48%;
+  }
+
+  .quote .box:after {
+    content: url("../../images/quote.png");
+    position: absolute;
+    bottom: -50px;
+    right: -30px;
+    opacity: 0.1;
+    color: black;
+    width: 50%;
+    height: auto;
+  }
+  .quality-button {
+    cursor: pointer;
+    width: 40%;
+    padding: 1%;
+    margin: 20px;
+    margin-bottom: 5em;
+    background: #E6E8E6;
+    border: black 2px solid;
+  }
+
+  .quality-button:hover {
+    background: #fff;
+    color: black;
+    transition: 0.5s ease-in-out;
+    
+  }
+
+  .contact-button {
+    cursor: pointer;
+    width: 30%;
+    padding: 1%;
+    margin: 2%;
+
+    background: #070707;
+    color: #fff;
+    border: #fff 2px solid;
+    float: left;
+    margin-left: 15%;
+    margin-top: 5%;
+  }
+
+  .contact-button:hover,
+  .about-button:hover {
+    background: #fff;
+    transition: 0.5s ease-in-out;
+    color: #070707;
+  }
+
+  .about-button {
+    cursor: pointer;
+    width: 30%;
+    padding: 1%;
+    margin: 20px;
+    color: #fff;
+
+    background: #070707;
+    border: #fff 2px solid;
+    float: left;
+    margin-top: 5%;
+  }
+
+  .small-logo {
+    width: 80px;
+    margin-left: 21%;
+    margin-right: 90%;
+    margin-top: 1%;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .intro-div {
+    padding-top: 60px;
+    background-color: #070707;
+    color: #fff;
+    height: 84vh;
+    position: relative;
+    text-align: center;
+    margin-top: 5px;
+    width: 90%;
+    margin-left: 5%;
+    overflow: hidden;
+  }
+
+  .landing-header {
+    margin-top: 0em;
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    font-size: 4rem;
+    margin-left: 5%;
+    padding-top: 2em;
+    margin-right: 57%;
+  }
+
+  .quote .box:after {
+    content: url("../../images/quote.png");
+    position: absolute;
+    bottom: -50px;
+    right: -130px;
+    opacity: 0.1;
+    color: black;
+    width: 50%;
+    height: auto;
+  }
+
+  .home-image {
+    display: inline;
+    margin-left: 50%;
+    size: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50%;
+    height: auto;
+  }
+
+  .quality {
+    background-color: #e6e8e6;
+    text-align: center;
+    margin-bottom: 2em;
+    overflow: hidden;
+    height: 50rem;
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .quality-image {
+    width: 50%;
+    height: auto;
+    size: 100%;
+    bottom: 0;
+    left: 0;
+  }
+
+  .quality-description {
+    width: 40%;
+    float: left;
+    padding-top: 15%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .quality-header {
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    font-size: 2em;
+  }
+
+  .quality-button {
+    cursor: pointer;
+    width: 40%;
+    padding: 1%;
+    margin: 20px;
+    margin-bottom: 5em;
+    background: #E6E8E6;
+    border: black 2px solid;
+  }
+
+  .quality-button:hover {
+    background: #fff;
+    color: black;
+    transition: 0.5s ease-in-out;
+    
+  }
+
+  .contact-button {
+    cursor: pointer;
+    width: 30%;
+    padding: 1%;
+    margin: 2%;
+
+    background: #070707;
+    color: #fff;
+    border: #fff 2px solid;
+    float: left;
+    margin-left: 15%;
+    margin-top: 5%;
+  }
+
+  .contact-button:hover,
+  .about-button:hover {
+    background: #fff;
+    transition: 0.5s ease-in-out;
+    color: #070707;
+  }
+
+  .about-button {
+    cursor: pointer;
+    width: 30%;
+    padding: 1%;
+    margin: 20px;
+    color: #fff;
+
+    background: #070707;
+    border: #fff 2px solid;
+    float: left;
+    margin-top: 5%;
+  }
+
+  .small-logo {
+    width: 80px;
+    margin-left: 21%;
+    margin-right: 90%;
+    margin-top: 1%;
+  }
+}
+
+/* font-family: 'Roboto', sans-serif; */
