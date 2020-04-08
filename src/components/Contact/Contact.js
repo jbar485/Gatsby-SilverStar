@@ -22,19 +22,14 @@ class Contact extends React.Component {
         <div className="formStyles">
           <form
             id="contact-form"
-            netlify-honeypot="bot-field"
             data-netlify="true"
-            method="post">
-            
-            <input 
-            type="hidden" 
-            name="bot-field"
-            />
+            method="POST">
           
             <input
               className="inputStylesTop"
               id="name"
               type="text"
+              name="name"
               placeholder="Name"
               defaultValue=""
             />
@@ -44,6 +39,7 @@ class Contact extends React.Component {
               className="inputStyles"
               id="email"
               type="email"
+              name="email"
               placeholder="Email"
               defaultValue=""
             />
@@ -51,7 +47,8 @@ class Contact extends React.Component {
             <textarea
               className="inputStylesArea"
               id="message"
-              type=""
+              type="textarea"
+              name="message"
               placeholder="Message"
               defaultValue=""
             />
