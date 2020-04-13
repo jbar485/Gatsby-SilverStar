@@ -106,10 +106,11 @@
 }
 
 .description {
-  width: 60%;
+  width: 90%;
   margin-left: 5%;
   margin-top: 2em;
   margin-bottom: 2em;
+  text-align: center;
 }
 
 .quality {
