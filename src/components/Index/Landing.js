@@ -34,8 +34,7 @@ function Landing() {
       <div>
         <div className="employee">
           <h3 className="landing-header">Customer Satisfaction First</h3>
-          <div className="description">
-            <p>
+            <p className="description">
               Established in 1990 we serve our clients with great respect and
               professionalism. We always put customer satisfaction first and go
               the distance to meet the needs and exceed the expectations of our
@@ -43,11 +42,10 @@ function Landing() {
               free estimates. With us, you will get quality yet affordable
               construction or home remodeling services.
             </p>
-          </div>
         </div>
       </div>
       <div className="quote">
-        <div class="box box1">
+        <div className="box box1">
           <p>
             We are finally all settled in. A big thanks to you, your boys and
             Donny. The craftsmanship and care you put into our home really
@@ -60,7 +58,7 @@ function Landing() {
           <h4>Eric + Monique Anton</h4>
         </div>
 
-        <div class="box box2">
+        <div className="box box2">
           <p>
             To sum up our experience, this was our first time building a home
             and our expectations were greatly exceeded. This custom home builder
@@ -72,7 +70,7 @@ function Landing() {
           <h4>Opal Gallegos</h4>
         </div>
 
-        <div class="box box3">
+        <div className="box box3">
           <p>
             This specialist changed the game! He recently did some work for me.
             The new construction project was completed on time and in a
@@ -83,7 +81,7 @@ function Landing() {
           <h4>Marty Basher</h4>
         </div>
 
-        <div class="box box4">
+        <div className="box box4">
           <p>
             These home builders did an amazing job on my kitchen remodel. they
             worked very quickly. We went from demolition to completion in less

@@ -39,7 +39,7 @@
       margin-bottom: 2em;
     }
     .about-header {
-      margin-top: 8em;
+      margin-top: 3em;
       font-family: 'Yanone Kaffeesatz', sans-serif;
       font-size: 2em;
       margin-left: 5%;
@@ -55,6 +55,7 @@
     .signature {
       margin-left: 5%;
       margin-bottom: 1em;
+      text-align: left;
       font-family: 'Yanone Kaffeesatz', sans-serif;
     }
   }
@@ -84,6 +85,7 @@
     .signature {
       margin-left: 5%;
       margin-bottom: 1em;
+      text-align: left;
       font-family: 'Yanone Kaffeesatz', sans-serif;
     }
   }
@@ -112,6 +114,7 @@
   
     .signature {
       margin-left: 5%;
+      text-align: left;
       margin-bottom: 1em;
       font-family: 'Yanone Kaffeesatz', sans-serif;
     }

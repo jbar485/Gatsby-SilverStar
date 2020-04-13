@@ -206,7 +206,7 @@
     bottom: 0;
     left: 0;
     width: 50%;
-    height: auto;
+    height: 100%;
   }
 
   .intro-inner {
@@ -235,6 +235,7 @@
     margin-left: 5%;
     margin-top: 2em;
     margin-bottom: 2em;
+    text-align: left;
   }
 
   .quality {
@@ -280,9 +281,9 @@
   .contact-button {
     cursor: pointer;
     width: 30%;
+    font-size: 12px;
     padding: 1%;
     margin: 2%;
-
     background: #070707;
     color: #fff;
     border: #fff 2px solid;
@@ -302,6 +303,7 @@
   .about-button {
     display: inline;
     cursor: pointer;
+    font-size: 12px;
     width: 30%;
     padding: 1%;
     margin: 20px;
