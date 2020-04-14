@@ -17,40 +17,35 @@ class Contact extends React.Component {
         <div className="information">
           <p className="info">Phone: +1 (360)921-0007</p>
           <p className="info">Email: silverstarhomes20@gmail.com</p>
-          <p className="info">Address: 4117 NE 232 ST Ridgefield Wa. 98642</p>
         </div>
         <div className="formStyles">
           <form
             id="contact-form"
-            data-netlify="true"
-            method="POST">
+            name="contact"
+            method="POST"
+            data-netlify="true">
+            
           
             <input
               className="inputStylesTop"
-              id="name"
               type="text"
               name="name"
               placeholder="Name"
-              defaultValue=""
             />
           
             <br />
             <input
               className="inputStyles"
-              id="email"
               type="email"
               name="email"
               placeholder="Email"
-              defaultValue=""
             />
             <br />
+
             <textarea
               className="inputStylesArea"
-              id="message"
-              type="textarea"
               name="message"
               placeholder="Message"
-              defaultValue=""
             />
            
             <br />
